@@ -44,9 +44,7 @@ Certifique-se de ter o Python instalado em sua máquina. Você pode instalar as 
 
 `pip install -r requirements.txt`
 
-## Configuração
-
-O projeto utiliza um banco de dados SQLite, então não há necessidade de configurações adicionais. Porém, para uso em produção, recomenda-se alterar para um banco de dados mais robusto, como PostgreSQL ou MySQL.
+Não esqueça de fazer um arquivo `.env` na pasta raiz.
 
 ---
 
