@@ -23,26 +23,33 @@ O sistema foi desenvolvido para gerenciar produtos de estoque, permitindo:
 
 ## Requisitos
 
-Primeiro vamos criar um ambiente virtual para fazer a instalação das bibliotecas.
+Crie um ambiente virtual para instalar as dependências do projeto:
 
 Windows:
-`python -m venv venv`
-No macOS e Linux:
-`python3 -m venv venv`
+```
+python -m venv venv
+```
+macOS e Linux:
+```
+python3 -m venv venv
+```
 
-Após executar o comando, uma nova pasta com o nome do ambiente virtual será criada no diretório atual.
-Ative o ambiente virtual. Isso é feito executando um script específico dependendo do seu sistema operacional.
+Ative o ambiente virtual:
 
 Windows:
-`venv\Scripts\activate`
-No macOS e Linux:
-`source venv/bin/activate`
+```
+venv\Scripts\activate
+```
+macOS e Linux:
+```
+source venv/bin/activate
+```
 
-Ao fazer isso, você notará que o prompt do terminal será prefixado com o nome do seu ambiente virtual, indicando que está ativo.
+Instale as dependências do projeto:
 
-Certifique-se de ter o Python instalado em sua máquina. Você pode instalar as dependências do projeto executando:
-
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 Não esqueça de fazer um arquivo `.env` na pasta raiz.
 
